@@ -1,4 +1,4 @@
-// in this code we have to use bool flag to make another "if statement"  using condition flag in it , & this is also the function of bool
+// in this code we have to use bool flag to make another "if statement"  using condition flag in it  & this is also the function of bool
 #include <iostream>
 #include <cmath>
 using namespace std;
