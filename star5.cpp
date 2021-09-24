@@ -23,5 +23,9 @@ int main()
 
     }
 
+
+    char a;
+    cout<<sizeof(a);
+
     return 0;
 }
