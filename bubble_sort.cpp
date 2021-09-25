@@ -1,3 +1,7 @@
+// in bubble sort we take first 2 elements and see if they are sorted then we move on another two
+//we do this untill our array is sorted 
+//its time complexity is n-1 bcs we have to iterate through loops n-1 times.
+
 #include <iostream>
 using namespace std;
 
