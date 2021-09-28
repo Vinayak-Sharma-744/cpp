@@ -13,7 +13,7 @@ int main()
     }
 
     int index;
-    cout<<'enter the index where you want to delete the element'<<endl;
+    cout<<"enter the index where you want to delete the element"<<endl;
     cin >> index;
 
     for (int i = index; i < n-1; i++)
