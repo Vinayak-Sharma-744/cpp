@@ -19,7 +19,7 @@ int main()
     int pos ;
     cin>>pos;
 
-    for (int i = n; i >= pos; i--)
+    for (int i = n; i > pos; i--)
     {
         arr[i]  = arr[i - 1];
     }
