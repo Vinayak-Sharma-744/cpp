@@ -1,29 +1,34 @@
-// in this code we have to use bool flag to make another "if statement"  using condition flag in it  & this is also the function of bool
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main()
 {
-    int n;
-    bool flag = 0;
+    int i, n;
+    bool isPrime = true;
 
-    cout << "enter no. to check whether it's prime or not" << endl;
+    cout << "Enter a positive integer: ";
     cin >> n;
 
-    for (int i = 2; i <= sqrt(n); i++)
+    // 0 and 1 are not prime numbers
+    if (n == 0 || n == 1)
     {
-        if (n % i == 0)
+        isPrime = false;
+    }
+    else
+    {
+        for (i = 2; i <= n / 2; ++i)
         {
-            cout << "no. is not prime" << endl;
-            flag = 1;
-            break;
-        }
-        if (flag == 0)
-        {
-            cout << "no. is prime" << endl;
+            if (n % i == 0)
+            {
+                isPrime = false;
+                break;
+            }
         }
     }
+    if (isPrime)
+        cout << n << " is a prime number";
+    else
+        cout << n << " is not a prime number";
 
     return 0;
 }
