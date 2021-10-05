@@ -9,7 +9,7 @@ int main()
     cout<<"\nEnter Element to Insert: ";
     cin>>elem;
     arr[i] = elem;
-    cout<<"\nThe New Array is:\n";
+    cout<<"\nNow the Array is:\n";
     for(i=0; i<6; i++)
         cout<<arr[i]<<"  ";
     cout<<endl;
