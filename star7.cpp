@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int star(int n)
+void star(int n)
 {
      n = 5;
     for (int i = 1; i <= n; i++)
@@ -14,7 +14,7 @@ int star(int n)
         }
         cout << endl;
     }
-    return 0;
+    
 }
 
 int main()
