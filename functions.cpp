@@ -1,34 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int add(int a, int b)
-{
-    int c;
-    c = a + b;
-    return c;
-}
+
 
 int main()
 {
 
-    int x,y;
-    cout << "enter first number" << endl;
-    cin >> x;
+    int a,b,sum;
 
-    cout << "enter second number" << endl;
-    cin >> y;
+    cin>>a;
+    cin>>b;
 
-    cout << "the function returned " << add(x,y);
-    
+    sum = a+b;
 
-    int b,c;
-    cout << "enter first number" << endl;
-    cin >> b;
+    cout<<sum;
 
-    cout << "enter second number" << endl;
-    cin >> c;
 
-    cout << "the function returned " << add(b,c);
     return 0;
 
 }
