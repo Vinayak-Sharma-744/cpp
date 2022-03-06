@@ -2,19 +2,30 @@
 using namespace std;
 int main()
 {
-    int h;
+    int x;
 
-    cin >> h;
-    int a[h];
-
-    for (int i = 0; i < h; i++)
+    cin >> x;
+    if (x >0)
     {
-        cin >> a[i];
+        if (x %2 == 0)
+        {
+            cout<<"even";
+        }
+        if (x%2 != 0)
+        {
+            cout<<"odd";
+        }
+        
     }
-    for (int i = 0; i < h; i++)
+    if (x<0)
     {
-        cout << a[i] << " ";
+        cout<<"negative";
     }
-
+    if (x==0)
+    {
+        cout<<"zero";
+    }
+    
+    
     return 0;
 }

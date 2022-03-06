@@ -16,7 +16,7 @@ int main()
         cin >> arr[i];
     }
 
-    int counter = 1;
+    int counter = 1;                       // here counter is  used so that for loop can run till counter < n, that will result in running for loop 4 times for sorting array completely//
     while (counter < n)
     {
         for (int i = 0; i < n - counter; i++)
